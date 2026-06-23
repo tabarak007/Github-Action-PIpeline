@@ -2,14 +2,13 @@
 
 name: action 
 
-  on:
+on:
   workflow_dispatch:
 jobs:
   build:
    runs-on: Runner
 
-   
-    steps:
+   steps:
     
       - uses: actions/checkout@v4
 
