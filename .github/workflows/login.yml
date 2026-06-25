@@ -17,7 +17,17 @@ jobs:
 
       - name: azure login
         run:  az login --service-principal --username 41526ad7-ed0e-4538-bd33-2e65e458734b --password 0rF8Q~zeV3xzN6KVQ5jkP5QTvkA.LYR746MdgaVO --tenant dad9b541-ed1b-46b6-87db-4a65e300f324
-              
+        
+      - name: init
+        run: terraform init  
+        
+      - name: plan
+        run: terraform plan
+
+      - name: plan
+        run: terraform apply -auto-approve
+
+        
 
   
         
