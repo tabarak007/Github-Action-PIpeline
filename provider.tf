@@ -1,5 +1,6 @@
 terraform {
 backend "azurerm" {
+resource_group_name = "topu"
 storage_account_name = "popu007"
 container_name = "kali"
 key = "actiontfstate"
