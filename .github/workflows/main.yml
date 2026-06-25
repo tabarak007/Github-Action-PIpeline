@@ -1,0 +1,23 @@
+name: azure
+
+on:
+  workflow_dispatch:
+jobs:
+
+  terraform:
+ 
+    runs-on: self-hosted
+
+    steps:
+ 
+      - uses: actions/checkout@v4
+     
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      - name: azure login
+        run:  az login --service-principal --username 41526ad7-ed0e-4538-bd33-2e65e458734b --password 4a406dd4-e3ff-401d-aba0-1c8234480efe --tenant dad9b541-ed1b-46b6-87db-4a65e300f324
+              
+
+  
+        
