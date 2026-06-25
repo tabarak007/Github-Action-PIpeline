@@ -1,7 +1,7 @@
 terraform {
 backend "azurerm" {
 storage_account_name = "popu007"
-storage_container = "kali"
+container_name = "kali"
 key = "actiontfstate"
 }
 required_providers {
