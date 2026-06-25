@@ -16,7 +16,7 @@ jobs:
         run: echo Hello, world!
 
       - name: azure login
-        run:  az login --service-principal --username 41526ad7-ed0e-4538-bd33-2e65e458734b --password 4a406dd4-e3ff-401d-aba0-1c8234480efe --tenant dad9b541-ed1b-46b6-87db-4a65e300f324
+        run:  az login --service-principal --username 41526ad7-ed0e-4538-bd33-2e65e458734b --UtG8Q~pqUHrEu-_cI1VheLviPow2ZZqQZxerwaOi --tenant dad9b541-ed1b-46b6-87db-4a65e300f324
               
 
   
