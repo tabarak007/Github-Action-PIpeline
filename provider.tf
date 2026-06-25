@@ -1,4 +1,9 @@
 terraform {
+backend "azurerm" {
+storage_account_name = "popu007"
+storage_account_container = "kali"
+key = "actiontfstate"
+}
 required_providers {
 azurerm = {
 source = "hashicorp/azurerm"
