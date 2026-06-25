@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "topu" {
-name = "action-rg"
+resource "azurerm_resource_group" "titli" {
+name = "git-rg"
 location = "central india"
 }
